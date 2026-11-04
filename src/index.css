@@ -1,0 +1,87 @@
+/* =========================================
+   AI EXAMPREP — CENTRAL THEME CONFIGURATION
+   Change these variables to customize the UI.
+   ========================================= */
+
+:root {
+  color-scheme: dark;
+
+  /* Main backgrounds */
+  --color-page: #101116;
+  --color-surface: #171923;
+  --color-surface-raised: #1d202c;
+  --color-surface-hover: #252938;
+  --color-surface-input: #13151e;
+
+  /* Text */
+  --color-text: #eeeff5;
+  --color-text-secondary: #b0b3c2;
+  --color-text-muted: #85899b;
+  --color-text-inverse: #101116;
+
+  /* Brand and interactive elements */
+  --color-primary: #8295ff;
+  --color-primary-hover: #9aa9ff;
+  --color-primary-soft: #242b4a;
+  --color-primary-border: #414d82;
+
+  /* Status colors */
+  --color-success: #80d4a4;
+  --color-warning: #f2c879;
+  --color-danger: #ff858d;
+  --color-info: #82caff;
+
+  /* Borders and shadows */
+  --color-border: #303341;
+  --color-border-strong: #45495b;
+  --shadow-card: 0 12px 35px rgb(0 0 0 / 18%);
+  --shadow-popover: 0 18px 45px rgb(0 0 0 / 30%);
+
+  /* Layout */
+  --radius-small: 8px;
+  --radius-medium: 14px;
+  --radius-large: 22px;
+  --radius-pill: 999px;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  /* Typography */
+  --font-body: "DM Sans", sans-serif;
+  --font-heading: "Manrope", sans-serif;
+}
+
+/* Shared base styles */
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-page);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+input,
+textarea,
+select {
+  color: var(--color-text);
+}
+
+::selection {
+  background: var(--color-primary-soft);
+  color: var(--color-text);
+}

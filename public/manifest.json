@@ -1,0 +1,16 @@
+{
+  "short_name": "ExamPrep AI",
+  "name": "ExamPrep AI — Study Assistant",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0b0a12",
+  "theme_color": "#9b8cff",
+  "display": "standalone",
+  "orientation": "portrait"
+}
